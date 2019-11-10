@@ -11,7 +11,7 @@ import java.util.Comparator;
 public class IdComparator implements Comparator<Item> {
 
 
-    public int compare(Item o1, Item o2) {   //this array.sort
+    public int compare(Item o1, Item o2) {
        return (int) (o1.getId() - o2.getId());
     }
 }
